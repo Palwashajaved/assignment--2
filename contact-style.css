@@ -1,0 +1,50 @@
+.container {
+    background-color: rgb(112, 85, 36);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col-md-6 {
+    margin-bottom: 20px;
+}
+
+/* Style for the social links */
+.social-links a {
+    margin-right: 10px;
+}
+
+/* Style for the contact form */
+#contactForm {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contactForm label {
+    font-weight: bold;
+}
+
+#contactForm .form-control {
+    margin-bottom: 15px;
+}
+
+button.btn.btn-primary {
+    background-color: #8B4513; /* Brown color */
+    border-color: #8B4513; /* Matching border color */
+    color: #fff; /* Text color */
+}
+
+button.btn.btn-primary:hover {
+    background-color: #3d2413; /* Darker brown on hover */
+    border-color: #755035;
+    color: #fff;
+}
+
+#confirmation-message {
+    display: none;
+    margin-top: 10px;
+    background-color: #8B4513;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
